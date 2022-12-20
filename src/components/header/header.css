@@ -1,0 +1,35 @@
+.header-container{
+      display: flex;
+      align-items: center;
+      padding: 1.5vw;
+      gap: 2vw;
+}
+
+
+.input-city input{
+      padding: 20px 30px;
+      border: 0;
+      border-bottom: 1px solid white;
+      background-color: #5ea9ff;
+      font-size: large;
+      color: white;
+}
+
+.input-city input::placeholder{
+      color: white;
+}
+
+.find-btn{
+      padding: 20px 30px;
+      border: none;
+      font-size: large;
+      background-color: #518bce;
+      cursor: pointer;
+      transition: 1s all ease;
+}
+
+.find-btn:hover{
+      background-color: #4474aa;
+      color: white;
+
+}

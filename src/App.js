@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Forecast from './components/foreCast/Forecast';
+import Header from './components/header/Header';
+import HeroSection from './components/heroSection/HeroSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1> weather App</h1>
-      </header>
+      <Header />
+      <HeroSection />
+      <Forecast />
     </div>
   );
 }

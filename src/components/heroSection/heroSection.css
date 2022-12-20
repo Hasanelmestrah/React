@@ -1,0 +1,24 @@
+.herosection-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 1vw;
+      color: #fff;
+}
+
+img{
+      width: 200px;
+      height: 300px;
+}
+
+.temprature{
+      display: flex;
+      align-items: center;
+      gap: 1.5vw;
+}
+
+.temprature-details{
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+}
