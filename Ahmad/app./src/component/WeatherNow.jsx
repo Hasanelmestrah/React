@@ -1,6 +1,6 @@
 import cloudy from "../weather-icons/mostlycloudy.svg";
 
-export default function Center() {
+export default function Center()  {
 return (
 <div id="weather">
 
