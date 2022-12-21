@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  transition: background-color 1s ease-in;
+  background-color: #9ccef3;
+  margin: 0;
+}
+
+#input {
+  border: 0;
+  height: 35px;
+  width: 12%;
+  background-color: #769edb;
+  text-align: center;
+  font-size: large;
+}
+
+input::placeholder {
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+  border-bottom: 2px solid #000000;
+}
+
+textarea:focus,
+input:focus {
+  color: white;
+  border-bottom: 2px solid #000000;
+}
+form {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+header {
+  background-color: #769edb;
+  transition: background-color 2s ease-in;
+  color: white;
+  display: flex;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+header button {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  transition: background-color 1s ease-in;
+  margin-left: 3%;
+  background-color: #5878c8;
+  /* background-color: red; */
+  border: #6495ed;
+}
+
+.mostlycloudy {
+  padding-left: 38%;
+  width: 230px;
+}
+
+#btn {
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#hrs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6%;
+}
+
+#hrs img {
+  width: 70px;
+  height: 70px;
+}
+
+#hrs p {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.4%;
+}
+
+#weather img {
+  width: 180px;
+  height: 180px;
+}
+
+#weather h2,
+h4 {
+  color: #08086a;
+}
+
+#weather h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
